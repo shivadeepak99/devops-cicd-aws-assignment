@@ -10,7 +10,7 @@ def student_details():
     return jsonify(
         {
             "student_name": "SHANIGARAM SHIVADEEPAK",
-            "roll_number": "2023BCD0048",
+            "roll_number": "2023bcd0048",
             "register_number": "48",
         }
     )

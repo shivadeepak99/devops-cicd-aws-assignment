@@ -7,8 +7,8 @@ pipeline {
 
     environment {
         DOCKERHUB_USERNAME = "shivadeepak"
-        FRONTEND_IMAGE = "${DOCKERHUB_USERNAME}/2023BCD0048_frontend"
-        BACKEND_IMAGE = "${DOCKERHUB_USERNAME}/2023BCD0048_backend"
+        FRONTEND_IMAGE = "${DOCKERHUB_USERNAME}/2023bcd0048_frontend"
+        BACKEND_IMAGE = "${DOCKERHUB_USERNAME}/2023bcd0048_backend"
     }
 
     stages {
